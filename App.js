@@ -56,8 +56,7 @@ export default function App() {
     console.log('userNumber||', userNumber);
 
     content = (
-      <GameOverScreen />
-      // {/* <GameOverScreen roundsNumber={guessRounds} userNumber={userNumber} /> */}
+      <GameOverScreen roundsNumber={guessRounds} userNumber={userNumber} />
     );
   }
 
